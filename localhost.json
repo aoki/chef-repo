@@ -1,0 +1,11 @@
+{
+  "flyway-cli": {
+    "version": "2.2",
+    "install_dir": "/tmp/test-flyway"
+  },
+
+  "run_list" : [
+    "recipe[flyway-cli]",
+    "recipe[flyway-cli::mysql-connector]"
+  ]
+}
