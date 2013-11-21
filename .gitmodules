@@ -1,0 +1,3 @@
+[submodule "cookbooks/flyway-cli"]
+	path = cookbooks/flyway-cli
+	url = git@github.com:yoshiki-aoki/cookbook-flyway-cli.git
